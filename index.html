@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vastra Vayana | Handloom Heritage</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <nav id="navbar">
+        <div class="logo">Vastra Vayana</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#craft">The Craft</a></li>
+            <li><a href="#collections">Collections</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+   
+    <header id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal">
+            <h1>Vastra Vayana</h1>
+            <p class="tagline">Where Every Thread Tells a Story</p>
+            <a href="#collections" class="btn-gold">Explore Heritage</a>
+        </div>
+    </header>
+
+    
+    <section id="story" class="split-section">
+        <div class="split-text reveal-left">
+            <h2>The Soul of Vastra Vayana</h2>
+            <h3>Weaving heritage into modern life</h3>
+            <p>
+                In the heart of India's weaving villages, time moves at the rhythm of the loom. 
+                Vastra Vayana is not just a brand; it is a revival of the forgotten dialogue between 
+                the weaver and the wearer. We bring you fabrics that breathe, colors that speak, 
+                and textures that feel like home.
+            </p>
+            <p>
+                At Vastra Vayana, we believe that fabric is not just material—it is a memory. 
+                Born from the rhythmic clatter of looms in rural India, our brand stands as a bridge 
+                between ancient craftsmanship and contemporary aesthetics.
+            </p>
+            <div class="ornament">✻</div>
+        </div>
+        <div class="split-image reveal-right">
+            
+            <img src="https://i.pinimg.com/736x/e2/fc/d2/e2fcd2f2ce941d8aeb3980a55a16c819.jpg" alt="Indian Handloom Texture">
+        </div>
+    </section>
+
+    
+    <section id="craft">
+        <div class="container">
+            <h2 class="section-title">The Art of Creation</h2>
+            <div class="craft-content">
+                <div class="video-wrapper reveal">
+                    
+                    <video autoplay muted loop playsinline controls>
+                        <source src="https://v1.pinimg.com/videos/mc/720p/b4/04/34/b4043470b1b08e0a8c0579579b5925aa.mp4" type="video/mp4">
+                            
+                    </video>
+                </div>
+                <div class="craft-cards">
+                    <div class="card reveal-up">
+                        <i class="fas fa-seedling"></i>
+                        <h4>Organic Yarns</h4>
+                        <p>Sourced directly from nature.</p>
+                    </div>
+                    <div class="card reveal-up delay-1">
+                        <i class="fas fa-hands"></i>
+                        <h4>Hand Woven</h4>
+                        <p>Crafted by master artisans.</p>
+                    </div>
+                    <div class="card reveal-up delay-2">
+                        <i class="fas fa-palette"></i>
+                        <h4>Natural Dyes</h4>
+                        <p>Colors that enrich the earth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="collections">
+        <h2 class="section-title">Curated Collections</h2>
+        
+        
+        <div class="category-grid">
+            <div class="cat-card" onclick="loadCategory('women')">
+                <img src="https://i.pinimg.com/736x/f6/e0/f2/f6e0f2d1ca07edf3d68b9038a9ec4282.jpg" alt="Women">
+                <div class="cat-overlay">
+                    <h3>Women</h3>
+                </div>
+            </div>
+            <div class="cat-card" onclick="loadCategory('men')">
+                <img src="https://i.pinimg.com/736x/d6/27/61/d627611cf6c5b7af985f3b1603d91a83.jpg" alt="Men">
+                <div class="cat-overlay">
+                    <h3>Men</h3>
+                </div>
+            </div>
+            <div class="cat-card" onclick="loadCategory('kids')">
+                <img src="https://i.pinimg.com/736x/ad/93/18/ad931800e94c0a7289b8d83e9e8bcdad.jpg" alt="Kids">
+                <div class="cat-overlay">
+                    <h3>Kids</h3>
+                </div>
+            </div>
+            <div class="cat-card" onclick="loadCategory('home')">
+                <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=800&auto=format&fit=crop" alt="Home Living">
+                <div class="cat-overlay">
+                    <h3>Home Living</h3>
+                </div>
+            </div>
+        </div>
+
+        
+        <div id="product-display" class="product-grid">
+            
+            <p class="instruction-text">Select a category above to view our heritage collection.</p>
+        </div>
+    </section>
+
+
+   
+    <section id="contact">
+        <div class="contact-overlay"></div>
+        <div class="contact-content reveal-up">
+            <h2>Vastra Vayana</h2>
+            <p>Connect with us for bespoke orders</p>
+            <div class="social-icons">
+                <a href="https://wa.me/9985043436" target="_blank" class="icon-link"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/vastra_vayana?igsh=MXozZW4xdWdmaDg5" target="_blank" class="icon-link"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:vastravayana5@gmail.com" class="icon-link"><i class="far fa-envelope"></i></a>
+            </div>
+            <p class="footer-note">&copy; 2026 Vastra Vayana. All Rights Reserved.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
